@@ -65,4 +65,127 @@
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
 iResolve is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://www.iresolve.io
+
+**Areas:** AI conflict coaching · private conversation rooms · asynchronous alignment · dispute resolution
+
+## iResolve on APIs.io
+
+Everything profiled for iResolve is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/iresolve-io/](https://apis.io/providers/iresolve-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [iResolve Agent API](https://apis.io/apis/iresolve-io/iresolve-io-agent-api/) — The Agent API from iResolve — 1 operation(s) for agent.
+- [iResolve Codemeta.json API](https://apis.io/apis/iresolve-io/iresolve-io-codemeta-json-api/) — The Codemeta.json API from iResolve — 1 operation(s) for codemeta.json.
+- [iResolve Feed.json API](https://apis.io/apis/iresolve-io/iresolve-io-feed-json-api/) — The Feed.json API from iResolve — 1 operation(s) for feed.json.
+- [iResolve Feed.xml API](https://apis.io/apis/iresolve-io/iresolve-io-feed-xml-api/) — The Feed.xml API from iResolve — 1 operation(s) for feed.xml.
+- [iResolve Integrations API](https://apis.io/apis/iresolve-io/iresolve-io-integrations-api/) — The Integrations API from iResolve — 19 operation(s) for integrations.
+- [iResolve .well Known API](https://apis.io/apis/iresolve-io/iresolve-io-well-known-api/) — The .well Known API from iResolve — 16 operation(s) for .well known.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [iResolve Agentic Access](https://apis.io/agentic-access/iresolve-io/iresolve-io-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AlignmentLaunchRequest](https://apis.io/schemas/iresolve-io/iresolve-io-alignment-launch-request/)
+- [AlignmentLaunchResponse](https://apis.io/schemas/iresolve-io/iresolve-io-alignment-launch-response/)
+- [CapabilitiesResponse](https://apis.io/schemas/iresolve-io/iresolve-io-capabilities-response/)
+- [DeliverabilityPostureResponse](https://apis.io/schemas/iresolve-io/iresolve-io-deliverability-posture-response/)
+- [EcosystemStatusResponse](https://apis.io/schemas/iresolve-io/iresolve-io-ecosystem-status-response/)
+- [TrustPostureResponse](https://apis.io/schemas/iresolve-io/iresolve-io-trust-posture-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Iresolve Io Context](https://apis.io/jsonld/iresolve-io/iresolve-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [iResolve API Rules](https://apis.io/rules/iresolve-io/iresolve-io-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [iResolve Domain Security](https://apis.io/security/iresolve-io/iresolve-io-domain-security/)
+- [iResolve Vulnerability Disclosure](https://apis.io/security/iresolve-io/iresolve-io-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.iresolve.io)
+- [Documentation](https://www.iresolve.io/openapi.json)
+- [Getting started](https://www.iresolve.io/about)
+- [API reference](https://www.iresolve.io/openapi.json)
+- [Support](https://www.iresolve.io/resources)
+- [Security](https://app.iresolve.io/privacy)
+- [Terms of service](https://www.iresolve.io/terms)
+- [Privacy policy](https://www.iresolve.io/privacy)
+
+## API Evangelist rating
+
+**Kin Score 43.5** — developing · rubric 0.28.0 · scored 2026-11-22
+
+| Facet | Score |
+|---|---|
+| Discoverability | 58.9 |
+| Contract quality | 53.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 9.5 |
+| Developer ergonomics | 33.3 |
+| Access clarity | 27.7 |
+
+**Agent readiness 32.2** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/iresolve-io/](https://apis.io/providers/iresolve-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for iResolve: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/iresolve-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
